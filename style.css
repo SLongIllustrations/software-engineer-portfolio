@@ -1,0 +1,125 @@
+/* creates a solid color background and center aligns all text unless specified */
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #eaeaea;
+}
+
+/* creates a base wrapper for all content */
+.wrapper {
+    width: 95%; /* of body width */
+    margin:  auto;
+}
+
+/* solid background color for header */
+header {
+  background-color: #181c23;
+}
+
+/* centers and scales profile image based on screen size */
+header div img {
+  display: block;
+  margin: auto;
+  width: 20%;
+  min-width: 75px;
+  padding-top: 20px;
+}
+
+/* adjustments to font family and specs of name */
+header div h1 {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  line-height: 9px;
+  padding-top: 5px;
+  letter-spacing: .65px;
+}
+
+/* adjustments to font family and specs of title */
+header div h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #eaeaea;
+  padding-bottom: 25px;
+  padding-top: 5px;
+  line-height: 9px;
+  letter-spacing: .7px;
+}
+
+/* adjustments to font family and specs of paragraphs */
+p {
+  font-family: 'Montserrat light', sans-serif;
+  line-height: 25px;
+  width: 65%;
+  min-width: 25%;
+  margin: auto;
+  color: #181c23;
+}
+
+/* adjustment to intro section margins only */
+#intro {
+  margin: 30px auto 30px auto;
+}
+
+/* adjustments to h4 text above unordered list */
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  color: #181c23;
+}
+
+/* adjustments to interests unordered list */
+.interests {
+  font-family: 'Montserrat light', sans-serif;
+  margin: auto;
+  width: 150px;
+  min-width: 10%;
+  line-height: 30px;
+  color: #181c23;
+}
+
+/* makes horizontal rule have light to dark to light gradient */
+hr {
+  background: linear-gradient(to right, #eaeaea, #181c23, #eaeaea);
+  width: 85%;
+  height: 1px;
+  margin: 60px auto 60px auto;
+}
+
+/* changes font family and color to "About" above about section */
+.about {
+  font-family: 'Open Sans', sans-serif;
+  color: #181c23;
+}
+
+/* changes to ordered list for social links */
+.social-links {
+  font-family: 'Open Sans', sans-serif;
+  width: 15%;
+  min-width: 10%;
+  margin: 30px auto 30px auto;
+  line-height: 30px;
+}
+
+/* changes to link color */
+.links {
+  color: #181c23a2;
+}
+
+/* changes link color on hover */
+.links:hover {
+  color:  #00FF7F;
+}
+
+/* footer background color area */
+footer {
+  background-color: #181c23;
+  width: 100%;
+  height: 60px; 
+  padding: 10px; 
+}
+
+/* copyright type */
+#copyright {
+  color: #eaeaea;
+  font-size: 1.75vmin;
+}
